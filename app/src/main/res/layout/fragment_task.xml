@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/task_title_label"
+        style="?android:listSeparatorTextViewStyle"/>
+
+    <EditText
+        android:id="@+id/et_task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_title_hint" />
+
+    <CheckBox
+        android:id="@+id/cb_task_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/is_done_label"/>
+
+    <Switch
+        android:id="@+id/swt_is_date_enable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchPadding="@dimen/margin"
+        android:text="@string/task_date_label"
+        style="?android:listSeparatorTextViewStyle"/>
+
+
+        <Button
+            android:id="@+id/btn_task_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:enabled="false"
+            tools:text="Mon, 11.09.2017"/>
+
+
+
+</LinearLayout>

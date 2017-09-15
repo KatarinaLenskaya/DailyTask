@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Daily Tasks</string>
+    <string name="date_type_overdue">Overdue</string>
+    <string name="date_type_today">Today</string>
+    <string name="date_type_tomorrow">Tomorrow</string>
+    <string name="date_type_this_week">This week</string>
+    <string name="date_type_next_week">Next week</string>
+    <string name="date_type_this_month">This month</string>
+    <string name="date_type_next_month">Next month</string>
+    <string name="date_type_later">Later</string>
+    <string name="date_type_no_date">No date</string>
+    <string name="task_title_label">What should be done?</string>
+    <string name="task_title_hint">Enter Task Here</string>
+    <string name="is_done_label">Task finished?</string>
+    <string name="task_date_label">When it should be done?</string>
+    <string name="date_picker_title">Due date:</string>
+    <string name="no_date">No date picked</string>
+</resources>
